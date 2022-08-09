@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apothecary Coffee & Tea House">
+    <meta name="keywords" content="coffee, tea, food, cafe">
+    <meta name="author" content="Caroline Seegmiller">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drink</title>
+    <!-- stylesheet -->
+        <link rel="stylesheet" href="home.css">
+    <!-- fonts -->      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</head>
+<body>
+
+<!-- hero -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Apothecary</h1>
+    <h3>coffee & tea house</h3>
+  </div>
+</div>
+
+<!-- navbar -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="eat.html"><i class="fa fa-cutlery" aria-hidden="true"></i>  Eat</a>
+  <a href="drink.html" class="active"><i class="fa fa-coffee" aria-hidden="true"></i>  Drink</a>
+  <a href="merry.html"><i class="fa fa-smile-o" aria-hidden="true"></i> Be Merry</a>
+  <a href="about.html"><i class="fa fa-book" aria-hidden="true"></i>  Our Story</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- content -->
+<div class="content">
+  <h1>Drink Menu</h1>
+
+<main>
+  
+  <input id="tab1" type="radio" name="tabs" checked >
+  <label for="tab1">Coffee</label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Tea & Infusions</label>
+    
+ 
+    
+  <section id="content1">
+    <h4>Custom Orders Upon Request & Availability</h4>
+    <p>Americano</p>
+    <p>Latte</p>
+    <p>Espresso</p>
+    <p>Mocha</p>
+    <p>Cappuccino</p>
+    <p>Dirty Chai</p>
+    <p>Pumpkin Spice</p>
+    <p>Caramel Macchiato</p>
+    <p>Mexican Mocha</p>
+    <p>Cafe Bombon</p>
+  </section>
+    
+  <section id="content2">
+    <h4>Custom Orders Upon Request & Availability</h4>
+    <p>Black Tea</p>
+    <p>Green Tea</p>
+    <p>Chai Tea</p>
+    <p>Red Berry Tea</p>
+    <p>Moraccan Mint Tea</p>
+    <p>Chamomile Tea</p>
+    <p>Lavander Tea</p>
+    <p>Ginger Tea</p>
+    <p>Sweet Pea Tea</p>
+    <p>Rosehip Tea</p>
+  </section>
+    
+ 
+    
+</main>
+
+
+
+
+
+
+</div>
+
+<!-- footer -->
+<footer class="footer">
+    <p>Apothecary Coffee & Tea House</p>
+    <a href="privacypolicy.html">Privacy Policy</a>
+</footer>
+</body>
+</html>

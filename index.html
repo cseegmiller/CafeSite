@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apothecary Coffee & Tea House">
+    <meta name="keywords" content="coffee, tea, food, cafe">
+    <meta name="author" content="Caroline Seegmiller">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- stylesheet -->
+        <link rel="stylesheet" href="home.css">
+    <!-- fonts -->      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</head>
+<body>
+
+<!-- hero -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Apothecary</h1>
+    <h3>coffee & tea house</h3>
+  </div>
+</div>
+
+<!-- navbar -->
+<!-- Load an icon library-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="eat.html"><i class="fa fa-cutlery" aria-hidden="true"></i>  Eat</a>
+  <a href="drink.html"><i class="fa fa-coffee" aria-hidden="true"></i>  Drink</a>
+  <a href="merry.html"><i class="fa fa-smile-o" aria-hidden="true"></i>  Be Merry</a>
+  <a href="about.html"><i class="fa fa-book" aria-hidden="true"></i>  Our Story</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- content -->
+<div class="content">
+<div class="row">
+  <div class="col-9">
+    <h1>Welcome</h1>
+    <h3>We are proud to serve the best coffee and tea in the DFW metroplex.</h3>
+    <p>Here at the Apothecary we are dedicated to providing over twenty varieties of high quality loose-leaf teas and <a href="https://pebblemag.com/magazine/living/6-ways-to-tell-if-your-coffee-really-is-ethical">ethically-sourced coffee beans</a> at fair prices. Let us pour you a cup of whatever draws your fancy while you enjoy one of our freshly baked pastries or check out our community book and boardgame library.</p><br>
+    <div class="imgBorder">
+    <img src="images/flowerlineart.svg" alt="https://freesvg.org/1539641420" height="200">    <img src="images/flowerlineart.svg" alt="https://freesvg.org/1539641420" height="200"><img src="images/flowerlineart.svg" alt="https://freesvg.org/1539641420" height="200">
+    </div>
+  </div> 
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>Schedule</h2>
+      <p>We are open every day<br> 9:00 AM to 9:00 PM</p>
+      <h2>Phone</h2>
+      <p>(123) 456 - 7890</p>
+      <h2>Address</h2>
+      <p>2800 E Spring Creek Pkwy <br>Plano, TX</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <h1>Eat</h1>
+    <div class="pbg">
+    <p>Our delicious pastries are lovingly baked every morning by our head chef Sandra who has been with us for more than ten years. </p>
+    <p>Quality and ethically-sourced ingredients are high priority for us at the Apothecary so we work with local farmers to ensure the freshest products.</p>
+    <div class="textcenter"><a href="eat.html" > Check out our food </a></div>
+  </div>
+  </div>
+  <div class="col-4">
+    <h1>Drink</h1>
+    <div class="pbg">
+    <p>We love a strong cup whether it be coffee or tea and our passion has taken us all over the world to bring the best to you.</p><p>Our head barista Caroline helps us curate our seasonal coffee menu. Our tea master Raed is responsible for the largest collections of loose-leaf tea in Dallas.</p>
+    <div class="textcenter"><a href="drink.html" > Check out our drinks </a></div>
+    </div>
+  </div>
+  <div class="col-4">
+    <h1>& Be Merry</h1>
+    <div class="pbg">
+    <p>Our cafe is proud to go beyond the expected and offer a variety of activities for our customers.</p>
+    <p>We offer high speed internet connection and our in-house librarian also routinely updates our community library with free books and boardgames for your enjoyment.</p>
+    <div class="textcenter"><a href="merry.html" > Check out our activities </a></div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="1200" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=2800%20East%20Spring%20Creek%20Parkway&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- footer -->
+<footer class="footer">
+    <p>Apothecary Coffee & Tea House</p>
+    <a href="privacypolicy.html">Privacy Policy</a>
+</footer>
+</body>
+</html>

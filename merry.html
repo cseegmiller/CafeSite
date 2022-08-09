@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Apothecary Coffee & Tea House">
+    <meta name="keywords" content="coffee, tea, food, cafe">
+    <meta name="author" content="Caroline Seegmiller">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Merry</title>
+    <!-- stylesheet -->
+        <link rel="stylesheet" href="home.css">
+    <!-- fonts -->      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</head>
+<body>
+
+<!-- hero -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Apothecary</h1>
+    <h3>coffee & tea house</h3>
+  </div>
+</div>
+
+<!-- navbar -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="eat.html"><i class="fa fa-cutlery" aria-hidden="true"></i>  Eat</a>
+  <a href="drink.html"><i class="fa fa-coffee" aria-hidden="true"></i>  Drink</a>
+  <a href="merry.html" class="active"><i class="fa fa-smile-o" aria-hidden="true"></i>  Be Merry</a>
+  <a href="about.html"><i class="fa fa-book" aria-hidden="true"></i>  Our Story</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- content -->
+<div class="content">
+
+
+  <div class="row">
+    <div class="col-3">
+      <figure><img src="images/merry1.jpg" alt="https://www.freepik.com/photos/modern-business"></figure>
+    </div>
+    
+    <div class="col-6 pbg">
+      <p>We have free high-speed internet available for all our customers including our students, writers, and gamers. Every table has its own outlet and USB plugs for your devices. If you would like to reserve our private study room please ask for the sign-up sheet at the counter.</p>
+    </div>
+  </div>
+
+  <div class="row"> 
+    <div class="col-6 pbg" style="margin-left: 25%;">
+      <p>Our community library offers dozens of titles in several genres. We encourage our customers to leave a book and take a book so that our collection is always changing and offering something new. We also have a special bookshelf for young children featuring picture books, short chapter books, and also coloring books.</p>
+    </div>
+    <div class="col-3" style="float:right">
+      <figure><img src="images/merry2.jpg" alt="https://www.freepik.com/photos/tea-break"></figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-3">
+      <figure><img src="images/merry3.jpg" alt="https://www.freepik.com/photos/people"></figure>
+    </div>
+    
+    <div class="col-6 pbg">
+      <p>For our customers who would like to have a little fun, we have some free classic table-top games such as <a href="https://www.chess.com/learn-how-to-play-chess">chess</a> available to check out at the counter. Please remember to return all the pieces of the game to the counter so that we can sanitize and reset the game for others.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- footer -->
+<footer class="footer">
+    <p>Apothecary Coffee & Tea House</p>
+    <a href="privacypolicy.html">Privacy Policy</a>
+</footer>
+</body>
+</html>
